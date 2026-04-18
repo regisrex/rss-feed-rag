@@ -2,7 +2,7 @@
 
 A job recommendation engine that ingests RSS feeds, extracts structured data with an LLM, embeds listings with a text embedding model, stores them in Gel (EdgeDB), and surfaces results via vector similarity or LLM-powered reasoning search.
 
-<video src="./demo.mp4">
+<video src="./demo.mp4" controls width="100%"></video>
 
 ## Architecture
 
