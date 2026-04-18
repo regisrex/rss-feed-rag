@@ -1,0 +1,17 @@
+module default {
+  type JobOpportunity {
+    required title: str;
+    required company: str;
+    required location: str;
+    required is_remote: bool;
+    required job_type: str;
+    required seniority: str;
+    required skills: array<str>;
+    salary_range: str;
+    required link: str {
+      constraint exclusive;
+    };
+    published: str;
+    required embedding: array<float32>;
+  }
+}
